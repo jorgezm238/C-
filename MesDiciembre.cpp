@@ -6,15 +6,15 @@ int main() {
     int num[TAM];
     int i;
    
-    // Inicializamos el array para representar los días de diciembre
+    // Inicializamos el array para representar los dÃ­as de diciembre
     for(i = 0; i < TAM; i++) {
-        num[i] = i + 1; // Días del 1 al 31
+        num[i] = i + 1; // DÃ­as del 1 al 31
     }
 
-    // Imprimir el título del mes
+    // Imprimir el tÃ­tulo del mes
     printf("*** MES DE DICIEMBRE 2025 ***\n\n");
 
-    // Imprimir los días de la semana
+    // Imprimir los dÃ­as de la semana
     printf("Lun Mar Mie Jue Vie Sab Dom\n");
 
     int primer_dia = 1;  
@@ -30,7 +30,7 @@ int main() {
         }
     }
 
-    printf("\n");  // Línea final para terminar el calendario
+    printf("\n");  // LÃ­nea final para terminar el calendario
 
     return 0;
 }
