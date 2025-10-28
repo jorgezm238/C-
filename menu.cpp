@@ -10,15 +10,20 @@ int main() {
         printf("\nDime la nota del alumno %d: ", i + 1);
         scanf("%f", &num[i]);  // Usamos '%f' para leer un número de tipo float
     }
-
     int opcion;
-    printf("\nElige una opción:\n");
+ do{
+    
+    printf("\nElige una opcion:\n");
     printf("1. Listar las notas\n");
     printf("2. Calcular la media de todos los valores\n");
     printf("3. Calcular la menor nota\n");
     printf("4. Calcular la mayor nota\n");
+    printf("5. Salir\n");
     scanf("%d", &opcion);
     
+    
+   
+	
     switch(opcion) {
         case 1:
             // Listar las notas
@@ -67,9 +72,10 @@ int main() {
             break;
 
         default:
-            printf("Opción no válida.\n");
+         
             break;
     }
+}while(opcion != 5);
     
     return 0; // Indica que todo ha funcionado correctamente
 }
