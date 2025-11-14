@@ -1,0 +1,5 @@
+# Compilar C++ (tu archivo es .cpp)
+& "C:\winlibs\mingw64\bin\g++.exe" "ArrayTablas.cpp" -o "ArrayTablas.exe"
+
+# Ejecutar
+& ".\ArrayTablas.exe"

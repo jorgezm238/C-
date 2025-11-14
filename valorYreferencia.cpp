@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+ #include <windows.h>  // al inicio del archivo
 //ver cambios en valor y referencia
 void valor(int);
 void referencia(int *);
@@ -16,8 +16,13 @@ int main() {
     
     
     
-    
-    return 0; // Indica que todo ha funcionado correctamente
+
+
+printf("\nCerrando en 10 segundos...\n");
+Sleep(100000); // 10000 milisegundos = 10 segundos
+return 0;
+
+   
 }
 void valor(int a){
 a = a+1;

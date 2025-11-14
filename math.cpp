@@ -1,5 +1,7 @@
 #include <stdio.h>
 #define PI 3.141596
+#include <windows.h>  // al inicio del archivo
+
 #include <math.h>  //biblioteca para el pow
 
 int main() {
@@ -7,7 +9,7 @@ int main() {
  	int numero;
     float resultado;
 
-    // Pedir el primer número al usuario
+    // Pedir el primer nï¿½mero al usuario
     printf("Introduce un numero\n");
     scanf("%d", &numero);  
     
@@ -17,6 +19,7 @@ int main() {
     resultado = sqrt(numero);
     printf("La raiz cuadrada es : %g\n", resultado);
    
-
+printf("\nCerrando en 10 segundos...\n");
+Sleep(10000); // 10000 milisegundos = 10 segundos
 return 0;
 }

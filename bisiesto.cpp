@@ -9,7 +9,7 @@ int bisiesto(int);
 int main() {
     int anho;
 
-    printf("Dime un anho: ");
+    printf("Dime un anhooooo: ");
     scanf("%d", &anho);
 
     int esBisiesto = bisiesto(anho);
